@@ -1,0 +1,126 @@
+body{
+    background-color: black;
+    margin: 10px;
+}
+
+#home{
+    background-color: #483355;
+    margin-left: -1cm;
+    margin-right: -1cm;
+    margin-top: -1cm;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+}
+
+header{
+    font-size: 30px;
+    color: aliceblue;
+    padding-left: 2cm;
+    float: left;
+}
+
+nav{
+    float: right;
+    padding-right: 2cm;
+}
+
+.topmenu{
+    font-size: 20px;
+    background: transparent;
+    border: none;
+    color: azure;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.topmenu:hover{
+    font-weight: bolder;
+    color: white;
+    background-color: #382742;
+    text-decoration: underline;
+
+}
+
+#all-conversion-sections{
+    display: grid;
+    justify-content: center;
+}
+
+figure{
+    float: left;
+    justify-self: auto;
+    width: 200px;
+}
+
+img{
+    width: 200px;
+}
+
+figcaption{
+    color: black;
+    font-size: 17px;
+    text-align: center;
+}
+
+button{
+    background-color: lightgreen;
+    border-radius: 20px;
+    font-size: 20px;
+    border: transparent;
+    width: fit-content;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.b{
+    border-top-style: solid;
+    border-top-width: 20px;
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+}
+
+.temperature{
+    border-top-color: green;
+}
+
+.weight{
+    border-top-color: coral;
+}
+
+.distance{
+    border-top-color: cyan;
+}
+
+legend{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.iconbutton{
+    border-radius: 100%;
+    background-color: cyan;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    bottom: 40px;
+    left: 0px;
+}
+
+.iconbutton img{
+    width: 30px;
+}
+
+footer{
+    background-color: antiquewhite;
+    margin-top: 20px;
+}
